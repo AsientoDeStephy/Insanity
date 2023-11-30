@@ -752,8 +752,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.37254903, g: 0.039215688, b: 0.39215687, a: 1}
+    m_PressedColor: {r: 1, g: 0.8745098, b: 0.99215686, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 449789940}
   m_HandleRect: {fileID: 353761944}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -50
   m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
@@ -1910,7 +1910,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.8745098, b: 0.99215686, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -2661,7 +2661,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0.5882353}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78431374}
+    m_HighlightedColor: {r: 1, g: 0.8745098, b: 0.99215686, a: 0.77254903}
     m_PressedColor: {r: 0.7176471, g: 0.7176471, b: 0.7176471, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -3913,6 +3913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a8c1cbcd59dac42ab6b45170d2360e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 195575768}
   audioMixer: {fileID: 24100000, guid: f87104355f3bed34a820f8940a7121e0, type: 2}
 --- !u!1 &1200172129
 GameObject:
